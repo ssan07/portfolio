@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Santhosh S | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Name</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">&#9776;</div>
+      </nav>
+    </header>
+
+    <!--Hero-->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Hello,I'm <span>Name</span></h1>
+        <p>A Full Stack Developer builing modern web apps.</p>
+        <button class="btn">View my Work</button>
+      </div>
+    </section>
+
+    <!--About-->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate developer focused on creating efficient,scalable and
+        visually appealing web applications.
+      </p>
+    </section>
+
+    <!--Skills-->
+    <section id="skills" class="skills">
+      <h2>Programming Languages</h2>
+      <div class="skills-container">
+        <div class="skill">
+          <div class="skill-info">
+            <span>C</span>
+            <span>85%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress c" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <span>C++</span>
+            <span>80%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress cpp" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-info">
+            <span>Python</span>
+            <span>90%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress python" style="width: 90%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Projects-->
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <h3>Project 1</h3>
+          <p>A responsive web application built with React and Node.js.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!--Contact-->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message ..." required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
